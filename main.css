@@ -8,6 +8,10 @@
     background-image: url(./images/Background.jpg);
 }
     
+
+body {
+    height: 80vh;
+}
 .items  {
 /*background-color: rgb(72, 182, 69);*/
 margin: 40px;
@@ -31,7 +35,7 @@ list-style: none;
      background-color: green;
      color: blanchedalmond;
      border-radius: 8px;
-     font-size: 10px;
+     font-size: 20px;
      margin-right: 10px;
 
     
@@ -41,6 +45,6 @@ list-style: none;
      background-color: red;
      color: blanchedalmond;
      border-radius: 15px;
-     font-size: 8px;
+     font-size: 18px;
 
  }
