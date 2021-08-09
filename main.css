@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/*background image of blue water*/
+ .background {
+    background-image: url(./images/Background.jpg);
+}
+    
+.items  {
+/*background-color: rgb(72, 182, 69);*/
+margin: 40px;
+list-style: none;
+}
+
+ h1 {
+     padding-top: 30px;
+     padding-left: 20px;
+ }
+
+ #input {
+     /*background-color: rgb(223, 226, 43);*/
+     margin-left: 25px;
+     margin-right: 10px;
+
+
+ }
+
+ #submit {
+     background-color: green;
+     color: blanchedalmond;
+     border-radius: 8px;
+     font-size: 10px;
+     margin-right: 10px;
+
+    
+    }
+
+ #remove {
+     background-color: red;
+     color: blanchedalmond;
+     border-radius: 15px;
+     font-size: 8px;
+
+ }
