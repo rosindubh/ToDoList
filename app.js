@@ -10,16 +10,14 @@ button.addEventListener("click", () => {
     console.log(listItem)
     list.appendChild(listItem);
     input.value = "";
-    
+
 removeBtn.addEventListener('click', () => {
     let lastItem = document.querySelector('li:last-child');
     let list = document.getElementsByTagName('ul')[0];
     list.removeChild(lastItem);
     })
-    
 })
-    
-for (let listItem of listItems){
+/*for (let listItem of listItems){
     listItem.addEventListener("mouseover", () => {
     listItem.textContent = listItem.textContent.toUpperCase();
     });
@@ -27,5 +25,5 @@ for (let listItem of listItems){
     listItem.addEventListener("mouseout", () => {
     listItem.textContent = listItem.textContent.toLowerCase();
     });
-}
+}*/
         
