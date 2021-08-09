@@ -26,9 +26,7 @@ list-style: none;
  #input {
      /*background-color: rgb(223, 226, 43);*/
      margin-left: 25px;
-     margin-right: 10px;
-
-
+     margin-right: 10px
  }
 
  #submit {
@@ -37,8 +35,6 @@ list-style: none;
      border-radius: 8px;
      font-size: 20px;
      margin-right: 10px;
-
-    
     }
 
  #remove {
@@ -46,5 +42,4 @@ list-style: none;
      color: blanchedalmond;
      border-radius: 15px;
      font-size: 18px;
-
  }
