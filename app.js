@@ -1,10 +1,10 @@
 //phil welsby - 15 aug 2021
-const input = document.getElementById("input");
-const button = document.getElementById("submit");
+const input = document.getElementById("input"); // text box
+const submitBtn = document.getElementById("submitBtn");
 let list = document.getElementsByTagName("ul") [0];
 const removeBtn = document.getElementById('remove');
 
-button.addEventListener("click", () => {
+submitBtn.addEventListener("click", () => {
     let listItem = document.createElement("li");
     console.log("listItem", listItem)
     console.log("list", list);
