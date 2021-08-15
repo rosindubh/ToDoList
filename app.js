@@ -6,6 +6,8 @@ const removeBtn = document.getElementById('remove');
 
 button.addEventListener("click", () => {
     let listItem = document.createElement("li");
+    console.log("listItem", listItem)
+    console.log("list", list);
     listItem.textContent = input.value;
     /*console.log(listItem)*/
     list.appendChild(listItem);
@@ -13,10 +15,8 @@ button.addEventListener("click", () => {
 
 removeBtn.addEventListener('click', () => {
     let lastItem = document.querySelector('li:last-child');
-    console.log('lastItem =', lastItem); /* output to console value of lastItem */
     let list = document.getElementsByTagName('ul')[0];
-    console.log('list =', list); /* output to console value of list */
-    list.removeChild(lastItem);
+    list.removeChild(lastItem);  
     })
 })
 
