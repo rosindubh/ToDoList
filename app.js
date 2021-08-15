@@ -7,10 +7,7 @@ let list = document.getElementsByTagName("ul") [0];
 
 submitBtn.addEventListener("click", () => {
     let listItem = document.createElement("li");
-    //console.log("listItem", listItem)
-    //console.log("list", list);
     listItem.textContent = input.value;
-    //console.log(listItem)
     list.appendChild(listItem);
     input.value = "";
 
