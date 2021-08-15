@@ -19,25 +19,25 @@ list-style: none;
 }
 
  h1 {
-     font-size: 90px;
+     font-size: 70px;
  }
 
  .input {
-     height: 80px;
+     height: 100px;
      width: 800px;
  }
 
- #submit {
+ .submit {
      background-color: green;
      color: blanchedalmond;
      border-radius: 8px;
-     font-size: 20px;
+     font-size: 70px;
      margin-right: 10px;
     }
 
- #remove {
+ .remove {
      background-color: red;
      color: blanchedalmond;
      border-radius: 15px;
-     font-size: 18px;
+     font-size: 70px;
  }
