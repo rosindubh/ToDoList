@@ -19,14 +19,12 @@ list-style: none;
 }
 
  h1 {
-     padding-top: 30px;
-     padding-left: 20px;
+     font-size: 90px;
  }
 
- #input {
-     /*background-color: rgb(223, 226, 43);*/
-     margin-left: 25px;
-     margin-right: 10px
+ .input {
+     height: 80px;
+     width: 800px;
  }
 
  #submit {
