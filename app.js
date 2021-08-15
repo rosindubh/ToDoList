@@ -1,4 +1,4 @@
-
+//phil welsby - 15 aug 2021
 const input = document.getElementById("input");
 const button = document.getElementById("submit");
 let list = document.getElementsByTagName("ul") [0];
